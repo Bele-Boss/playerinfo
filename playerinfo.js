@@ -2,8 +2,12 @@ const API_KEY = 'AIzaSyCfxg14LyZ1hrs18WHUuGOnSaJ_IJEtDQc';
 const SHEET_ID = '1Bcl1EVN-7mXUP7M1FL9TBB5v4O4AFxGTVB6PwqOn9ss';
 
 function fetchPlayerInfo() {
-    const name = document.getElementById('name').value;
-    const number = document.getElementById('number').value;
+    // Your logic to fetch and display player info
+    console.log("fetchPlayerInfo is called");
+    // Example: Display a message in 'playerInfo' div
+    document.getElementById('playerInfo').innerText = "Fetching Player Info...";
+}
+
 
     // Validate input
     if (!name || !number) {
